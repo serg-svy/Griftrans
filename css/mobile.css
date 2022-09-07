@@ -17,6 +17,12 @@
     .dropdown-content{
         right: 5rem;
     }
+    span.slider-nav__arrow.js-gallery-prev.slick-arrow{
+        top: 42.2rem;
+    }
+    span.slider-nav__arrow.js-gallery-next.slick-arrow{
+        top: 42.2rem;
+    }
 }
 
 
