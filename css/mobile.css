@@ -1,0 +1,113 @@
+@media (max-width: 1650px){
+    .logist_map img {
+        max-width: 100%;
+    }
+    .container_about_background{
+        background-position: 102% 24.2%;
+    }
+    .container_services{
+        background-position: 103% 70%;
+    }
+    .service_det_back{
+        background-position: 0% 29.6%;
+    }
+    .dropbtn::after{
+        right: 5.5rem;
+    }
+    .dropdown-content{
+        right: 5rem;
+    }
+}
+
+
+@media (max-width: 1350px){
+    .mobile_full-container {
+        width: 100%;
+    }
+    .logist_map img {
+        max-width: 100%;
+    }
+    .dropbtn::after{
+        right: 2.5rem;
+    }
+    .container_about_background{
+        background-position: 106% 23%;
+    }
+    .slider-nav {
+        transform: translate(-16rem, 1rem);
+        z-index: 1;
+    }
+    
+    
+}
+@media (max-width: 1155px){}
+@media (max-width: 1055px){}
+@media (max-width: 960px){}
+@media (max-width: 860px){}
+@media (max-width: 670px){}
+@media (max-width: 545px){}
+@media (max-width: 475px){
+    .about-cnt {
+        flex-direction: column;
+    }
+    .about_block_span{
+        width: 100%;
+    }
+    .about_block_desc{
+        width: 100%;
+    }
+    .container_about_background{
+        background-image: none;
+    }
+    .about_img img {
+        width: 100%;
+    }
+    .about_specification {
+        margin-top: 20px;
+    }
+    ul.recommend_cnt_about_list {
+        flex-direction: column;
+        margin: 0 50px;
+    }
+
+    .footer-blocks{
+        flex-direction: column;
+    }
+    ul.menu-footer__list{
+        flex-direction: column;
+    }
+    .author-text{
+        flex-direction: column;
+    }
+    .footer-join{
+        align-items: start;
+    }
+    .footer-contacts{
+        margin: 0;
+    }
+    ul.menu-top__list{
+        display: none;
+    }
+    ul.auth-nav {
+        flex-direction: column;
+    }
+    nav.menu-top__nav{
+        display: none;
+    }
+    ul.menu-contact__list{
+        padding: 10px 0;
+    }
+    .header_logo.header_elems img {
+        width: 75%;
+        margin-left: 5px;
+    }
+    #header{
+        height: 75px;
+    }
+    .breadcrumbs_block{
+    margin-top: 0;
+    margin-left: 15px;
+    }
+}
+@media (max-width: 380px){  }
+@media (max-width: 330px){}
