@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta name="robots" content="none" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="css/ws.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/mobile.css" />
@@ -23,527 +21,438 @@
     <link rel="stylesheet" href="lib/jqueryUI/jQueryUI.css" />
     <link rel="stylesheet" href="lib/animatecss/animate.css" />
     <title>Grifttrans</title>
-  </head>
-  <body id="top">
+</head>
+
+<body id="top">
     <!-- header -->
     <div id="content">
-      <div id="page">
-        <header id="header">
-          <div class="container header_wrapper">
-            <div class="header_logo header_elems">
-              <a href="index.html#">
-                <img src="image/icon/logo.svg" alt="logo" />
-              </a>
-            </div>
-            <div class="header__menu-contact menu-contact">
-              <nav class="menu-contact__body">
-                <ul class="menu-contact__list">
-                  <ul class="auth-nav">
-                    <li class="header-item contact">
-                      <a href="tel:+40753005599" class="auth-list">
-                        <svg
-                          width="11"
-                          height="11"
-                          viewBox="0 0 11 11"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M10.3889 7.6389C9.62807 7.6389 8.89167 7.51667 8.20723 7.29057C7.9964 7.22333 7.755 7.27223 7.58696 7.4403L6.24253 8.7878C4.51003 7.9078 3.0953 6.49307 2.2153 4.76363L3.55973 3.41307C3.7278 3.245 3.77667 3.00363 3.70946 2.7928C3.48336 2.10836 3.36113 1.37196 3.36113 0.61113C3.3611 0.271935 3.08917 0 2.75 0H0.611102C0.275 0 0 0.271935 0 0.611102C0 6.34944 4.65056 11 10.3889 11C10.7281 11 11 10.7281 11 10.3889V8.25C11 7.91083 10.7281 7.6389 10.3889 7.6389Z"
-                            fill="#ADADAD"
-                          /></svg
-                        >+40753 005 599</a
-                      >
-                    </li>
-                    <li class="header-item contact">
-                      <a
-                        href="mailto:office@frigotranslogistic.ro"
-                        class="auth-list"
-                      >
-                        office@frigotranslogistic.ro</a
-                      >
-                    </li>
-                  </ul>
-                  <div class="dropdown">
-                    <div class="dropbtn">Ro</div>
-                    <div class="dropdown-content">
-                      <a href="#">Ru</a>
-                      <a href="#">En</a>
+        <div id="page">
+            <header id="header">
+                <div class="container header_wrapper">
+                    <div class="header_logo header_elems">
+                        <a href="index.html#">
+                            <img src="image/icon/logo.svg" alt="logo" />
+                        </a>
                     </div>
-                  </div>
-                </ul>
-              </nav>
-              <nav class="menu-top__nav">
-                <ul class="menu-top__list">
-                  <li class="menu-top__item">
-                    <a href="/Griftrans/index.html" class="menu-top__link"
-                      >Acasa</a
-                    >
-                  </li>
-                  <li class="menu-top__item">
-                    <a href="/Griftrans/about.html" class="menu-top__link"
-                      >Despre companie</a
-                    >
-                  </li>
-                  <li class="menu-top__item">
-                    <a href="/Griftrans/directions.html" class="menu-top__link"
-                      >Directii</a
-                    >
-                  </li>
-                  <li class="menu-top__item">
-                    <a href="/Griftrans/services.html" class="menu-top__link"
-                      >Servicii</a
-                    >
-                  </li>
-                  <li class="menu-top__item">
-                    <a href="/Griftrans/contact.html" class="menu-top__link"
-                      >Contacte</a
-                    >
-                  </li>
-                </ul>
-                <button
-                  data-modal-open
-                  type="button"
-                  class="button-hero button"
-                >
-                  Solicitați un apel
-                </button>
-              </nav>
-            </div>
+                    <div class="header__menu-contact menu-contact">
+                        <nav class="menu-contact__body">
+                            <ul class="menu-contact__list">
+                                <ul class="auth-nav">
+                                    <li class="header-item contact">
+                                        <a href="tel:+40753005599" class="auth-list">
+                                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M10.3889 7.6389C9.62807 7.6389 8.89167 7.51667 8.20723 7.29057C7.9964 7.22333 7.755 7.27223 7.58696 7.4403L6.24253 8.7878C4.51003 7.9078 3.0953 6.49307 2.2153 4.76363L3.55973 3.41307C3.7278 3.245 3.77667 3.00363 3.70946 2.7928C3.48336 2.10836 3.36113 1.37196 3.36113 0.61113C3.3611 0.271935 3.08917 0 2.75 0H0.611102C0.275 0 0 0.271935 0 0.611102C0 6.34944 4.65056 11 10.3889 11C10.7281 11 11 10.7281 11 10.3889V8.25C11 7.91083 10.7281 7.6389 10.3889 7.6389Z"
+                                                    fill="#ADADAD" />
+                                            </svg>+40753 005 599</a>
+                                    </li>
+                                    <li class="header-item contact">
+                                        <a href="mailto:office@frigotranslogistic.ro" class="auth-list">
+                                            office@frigotranslogistic.ro</a>
+                                    </li>
+                                </ul>
+                                <div class="dropdown">
+                                    <div class="dropbtn">Ro</div>
+                                    <div class="dropdown-content">
+                                        <a href="#">Ru</a>
+                                        <a href="#">En</a>
+                                    </div>
+                                </div>
+                            </ul>
+                        </nav>
+                        <nav class="menu-top__nav">
+                            <ul class="menu-top__list">
+                                <li class="menu-top__item">
+                                    <a href="/Griftrans/index.html" class="menu-top__link">Acasa</a>
+                                </li>
+                                <li class="menu-top__item">
+                                    <a href="/Griftrans/about.html" class="menu-top__link">Despre companie</a>
+                                </li>
+                                <li class="menu-top__item">
+                                    <a href="/Griftrans/directions.html" class="menu-top__link">Directii</a>
+                                </li>
+                                <li class="menu-top__item">
+                                    <a href="/Griftrans/services.html" class="menu-top__link">Servicii</a>
+                                </li>
+                                <li class="menu-top__item">
+                                    <a href="/Griftrans/contact.html" class="menu-top__link">Contacte</a>
+                                </li>
+                            </ul>
+                            <button data-modal-open type="button" class="button-hero button">
+                                Solicitați un apel
+                            </button>
+                        </nav>
+                    </div>
 
-            <div id="burger">
-              <img src="" alt="" />
-            </div>
-          </div>
-        </header>
-      </div>
+                    <div id="burger">
+                        <img src="" alt="" />
+                    </div>
+                </div>
+            </header>
+        </div>
     </div>
     <main class="home_block">
-      <div class="mobile_full-container">
-        <div class="slider-nav">
-          <span class="slider-nav__arrow js-gallery-prev">PREV</span>
-          <span class="slider-nav__arrow js-gallery-next">NEXT</span>
-        </div>
-        <div class="full-container slider js-slider">
-          <div class="main_slider block slider__item">
-            <a href="#">
-              <img src="image/upload/hero.jpg" alt="banner" />
-            </a>
-          </div>
-          <div class="main_slider block slider__item">
-            <a href="#">
-              <img src="image/upload/hero.jpg" alt="banner" />
-            </a>
-          </div>
-          <div class="main_slider block slider__item">
-            <a href="#">
-              <img src="image/upload/hero.jpg" alt="banner" />
-            </a>
-          </div>
-        </div>
-      </div>
-      <section class="hero-section">
-        <div class="hero-align">
-          <h1 class="hero-title">Transport Frigorific</h1>
-          <p>Intern-International</p>
-        </div>
-      </section>
-      <div class="cookie">
-        <p class="cookie_title">Мы используем файлы cookie</p>
-        <p class="cookie_desc">
-          Продолжая использовать наш веб-сайт вы соглашаетесь с
-          <a class="cookie_link" href=""
-            >политикой использования файлов cookie</a
-          >
-        </p>
-        <button data-modal-open="" type="button" class="cookie-hero">
-          Ок, я согласен(а)
-        </button>
-        <button data-modal-open="" type="button" class="cookie-hero_btn">
-          Нет, я не согласен(а)
-        </button>
-      </div>
-      <div class="container_services">
-        <div class="container">
-          <section class="services">
-            <p class="services_title">Servicii De Transport</p>
-            <span class="services_desc">Sigure Si Rapide!</span>
-            <div class="section_sevices">
-              <div class="section_sevices_cnt">
-                <p class="services_desc_cnt">
-                  Activitatea noastră acoperă toate tipurile de nevoi
-                  logistice:<br />
-                  expediere de mărfuri, transport comercial de marfă,
-                  depozitare, manipulare sau alte servicii de expediere.
-                </p>
-                <ul class="section_sevices_list left">
-                  <a href="#">
-                    <li class="section_sevices_item">
-                      <span>Transport frigorific</span>
-                      <p>
-                        Asiguram transport frigorific chiar si pentru marfurile
-                        care necesita conditii speciale climatice de transport,
-                        precum produsele lactate ...
-                      </p>
-                    </li></a
-                  >
-                  <a href="#">
-                    <li class="section_sevices_item">
-                      <span>Transport carcase de animale</span>
-                      <p>
-                        Marfa de dimensiuni reduse se poate suprapune fara a se
-                        strivi cu ajutorul containerelor Doppelstock.
-                      </p>
-                    </li></a
-                  >
-                </ul>
-                <ul class="section_sevices_list right">
-                  <a href="#">
-                    <li class="section_sevices_item">
-                      <span>Transport de marfă suprapusă</span>
-                      <p>
-                        Marfa de dimensiuni reduse se poate suprapune fara a se
-                        strivi cu ajutorul containerelor Doppelstock.
-                      </p>
-                    </li></a
-                  >
-                  <a href="#">
-                    <li class="section_sevices_item">
-                      <span>Transport frigorific</span>
-                      <p>
-                        Asiguram transport frigorific chiar si pentru marfurile
-                        care necesita conditii speciale climatice de transport,
-                        precum produsele lactate ...
-                      </p>
-                    </li></a
-                  >
-                </ul>
-                <div class="footer_contact_btn">
-                  <a href="#"
-                    >Vezi toate serviciile<svg
-                      width="20"
-                      height="11"
-                      viewBox="0 0 20 11"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M19.8678 4.70428L15.3225 0.158889C15.1592 -0.0317713 14.8722 -0.0539973 14.6816 0.10932C14.4909 0.272598 14.4687 0.559546 14.632 0.750207C14.6472 0.76798 14.6638 0.784581 14.6816 0.799776L18.4497 4.57244H0.454523C0.203512 4.57244 0 4.77596 0 5.02701C0 5.27806 0.203512 5.48153 0.454523 5.48153H18.4497L14.6816 9.24963C14.4909 9.4129 14.4687 9.69985 14.632 9.89051C14.7953 10.0812 15.0822 10.1034 15.2729 9.94008C15.2907 9.92485 15.3073 9.90829 15.3225 9.89051L19.8678 5.34513C20.0441 5.1679 20.0441 4.88158 19.8678 4.70428Z"
-                        fill="white"
-                      />
-                    </svg>
-                  </a>
+        <div class="mobile_full-container">
+            <div class="slider-nav">
+                <span class="slider-nav__arrow js-gallery-prev"></span>
+                <span class="slider-nav__arrow js-gallery-next"></span>
+            </div>
+            <div class="full-container slider js-slider">
+                <div class="main_slider block slider__item">
+                    <a href="#">
+                        <img class="images_slider" src="image/upload/hero.jpg" alt="banner" />
+                    </a>
                 </div>
-              </div>
-              <div class="section_sevices_img">
-                <img src="image/upload/Rectangle_5.png" alt="" />
-              </div>
+                <div class="main_slider block slider__item">
+                    <a href="#">
+                        <img class="images_slider" src="image/upload/hero.jpg" alt="banner" />
+                    </a>
+                </div>
+                <div class="main_slider block slider__item">
+                    <a href="#">
+                        <img class="images_slider" src="image/upload/hero.jpg" alt="banner" />
+                    </a>
+                </div>
             </div>
-          </section>
         </div>
-      </div>
-      <section class="services_logist">
-        <div class="logist">
-          <span class="services_logist_desc">Lucrăm pe toata</span>
-          <p class="services_logist_title">teritoria Europei</p>
-          <div class="services_logist_cnt">
-            <p>
-              Activitatea noastră acoperă toate tipurile de nevoi logistice:
-              expediere de mărfuri, transport comercial de marfă, depozitare,
-              manipulare sau alte servicii de expediere.
-            </p>
-          </div>
-          <div class="footer_contact_btn">
-            <a href="#"
-              >Vezi toate directiile<svg
-                width="20"
-                height="11"
-                viewBox="0 0 20 11"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M19.8678 4.70428L15.3225 0.158889C15.1592 -0.0317713 14.8722 -0.0539973 14.6816 0.10932C14.4909 0.272598 14.4687 0.559546 14.632 0.750207C14.6472 0.76798 14.6638 0.784581 14.6816 0.799776L18.4497 4.57244H0.454523C0.203512 4.57244 0 4.77596 0 5.02701C0 5.27806 0.203512 5.48153 0.454523 5.48153H18.4497L14.6816 9.24963C14.4909 9.4129 14.4687 9.69985 14.632 9.89051C14.7953 10.0812 15.0822 10.1034 15.2729 9.94008C15.2907 9.92485 15.3073 9.90829 15.3225 9.89051L19.8678 5.34513C20.0441 5.1679 20.0441 4.88158 19.8678 4.70428Z"
-                  fill="white"
-                />
-              </svg>
-            </a>
-          </div>
+        <div class="cookie">
+          <p class="cookie_title">Мы используем файлы cookie</p>
+          <p class="cookie_desc">
+            Продолжая использовать наш веб-сайт вы соглашаетесь с
+            <a class="cookie_link" href=""
+              >политикой использования файлов cookie</a
+            >
+          </p>
+          <button data-modal-open="" type="button" class="cookie-hero">
+            Ок, я согласен(а)
+          </button>
+          <button data-modal-open="" type="button" class="cookie-hero_btn">
+            Нет, я не согласен(а)
+          </button>
         </div>
-        <div class="logist_map">
-          <img src="image/upload/map_services.png" alt="" />
+  
+        <div class="container_services">
+            <div class="container">
+                <section class="services">
+                    <p class="services_title">Servicii De Transport</p>
+                    <span class="services_desc">Sigure Si Rapide!</span>
+                    <div class="section_sevices">
+                        <div class="section_sevices_cnt">
+                            <p class="services_desc_cnt">
+                                Activitatea noastră acoperă toate tipurile de nevoi
+                                logistice:<br />
+                                expediere de mărfuri, transport comercial de marfă,
+                                depozitare, manipulare sau alte servicii de expediere.
+                            </p>
+                            <ul class="section_sevices_list left">
+                                <a href="#">
+                                    <li class="section_sevices_item">
+                                        <span>Transport frigorific</span>
+                                        <p>
+                                            Asiguram transport frigorific chiar si pentru marfurile
+                                            care necesita conditii speciale climatice de transport,
+                                            precum produsele lactate ...
+                                        </p>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li class="section_sevices_item">
+                                        <span>Transport carcase de animale</span>
+                                        <p>
+                                            Marfa de dimensiuni reduse se poate suprapune fara a se
+                                            strivi cu ajutorul containerelor Doppelstock.
+                                        </p>
+                                    </li>
+                                </a>
+                            </ul>
+                            <ul class="section_sevices_list right">
+                                <a href="#">
+                                    <li class="section_sevices_item">
+                                        <span>Transport de marfă suprapusă</span>
+                                        <p>
+                                            Marfa de dimensiuni reduse se poate suprapune fara a se
+                                            strivi cu ajutorul containerelor Doppelstock.
+                                        </p>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li class="section_sevices_item">
+                                        <span>Transport frigorific</span>
+                                        <p>
+                                            Asiguram transport frigorific chiar si pentru marfurile
+                                            care necesita conditii speciale climatice de transport,
+                                            precum produsele lactate ...
+                                        </p>
+                                    </li>
+                                </a>
+                            </ul>
+                            <div class="footer_contact_btn">
+                                <a href="#">Vezi toate serviciile<svg width="20" height="11" viewBox="0 0 20 11"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M19.8678 4.70428L15.3225 0.158889C15.1592 -0.0317713 14.8722 -0.0539973 14.6816 0.10932C14.4909 0.272598 14.4687 0.559546 14.632 0.750207C14.6472 0.76798 14.6638 0.784581 14.6816 0.799776L18.4497 4.57244H0.454523C0.203512 4.57244 0 4.77596 0 5.02701C0 5.27806 0.203512 5.48153 0.454523 5.48153H18.4497L14.6816 9.24963C14.4909 9.4129 14.4687 9.69985 14.632 9.89051C14.7953 10.0812 15.0822 10.1034 15.2729 9.94008C15.2907 9.92485 15.3073 9.90829 15.3225 9.89051L19.8678 5.34513C20.0441 5.1679 20.0441 4.88158 19.8678 4.70428Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section_sevices_img">
+                            <img src="image/upload/Rectangle_5.png" alt="" />
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
-      </section>
-      <div class="container">
-        <section class="recommend">
-          <p class="recommend_title">Ce ne</p>
-          <span class="recommend_desc">recomandă?</span>
-          <div class="recommend_cnt">
-            <ul class="recommend_cnt_list">
-              <li class="recommend_cnt_item">
-                <span>01</span>
-                <p class="recommend_cnt_title">Monitorizare GPS</p>
-                <p class="recommend_cnt_desc">
-                  Asiguram transport frigorific chiar si pentru marfurile care
-                  necesita conditii speciale climatice de transport, precum
-                  produsele lactate ...
-                </p>
-              </li>
-              <li class="recommend_cnt_item">
-                <span>02</span>
-                <p class="recommend_cnt_title">Dispecerat 24/H</p>
-                <p class="recommend_cnt_desc">
-                  Asiguram transport frigorific chiar si pentru marfurile care
-                  necesita conditii speciale climatice de transport, precum
-                  produsele lactate ...
-                </p>
-              </li>
-              <li class="recommend_cnt_item">
-                <span>03</span>
-                <p class="recommend_cnt_title">Transporturi De Incredere</p>
-                <p class="recommend_cnt_desc">
-                  Asiguram transport frigorific chiar si pentru marfurile care
-                  necesita conditii speciale climatice de transport, precum
-                  produsele lactate ...
-                </p>
-              </li>
-              <li class="recommend_cnt_item">
-                <span>04</span>
-                <p class="recommend_cnt_title">Asigurare Transporturi</p>
-                <p class="recommend_cnt_desc">
-                  Asiguram transport frigorific chiar si pentru marfurile care
-                  necesita conditii speciale climatice de transport, precum
-                  produsele lactate ...
-                </p>
-              </li>
-            </ul>
-          </div>
+        <section class="services_logist">
+            <div class="logist">
+                <span class="services_logist_desc">Lucrăm pe toata</span>
+                <p class="services_logist_title">teritoria Europei</p>
+                <div class="services_logist_cnt">
+                    <p>
+                        Activitatea noastră acoperă toate tipurile de nevoi logistice:
+                        expediere de mărfuri, transport comercial de marfă, depozitare,
+                        manipulare sau alte servicii de expediere.
+                    </p>
+                </div>
+                <div class="footer_contact_btn">
+                    <a href="#">Vezi toate directiile<svg width="20" height="11" viewBox="0 0 20 11" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19.8678 4.70428L15.3225 0.158889C15.1592 -0.0317713 14.8722 -0.0539973 14.6816 0.10932C14.4909 0.272598 14.4687 0.559546 14.632 0.750207C14.6472 0.76798 14.6638 0.784581 14.6816 0.799776L18.4497 4.57244H0.454523C0.203512 4.57244 0 4.77596 0 5.02701C0 5.27806 0.203512 5.48153 0.454523 5.48153H18.4497L14.6816 9.24963C14.4909 9.4129 14.4687 9.69985 14.632 9.89051C14.7953 10.0812 15.0822 10.1034 15.2729 9.94008C15.2907 9.92485 15.3073 9.90829 15.3225 9.89051L19.8678 5.34513C20.0441 5.1679 20.0441 4.88158 19.8678 4.70428Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="logist_map">
+                <img src="image/upload/map_services.png" alt="" />
+            </div>
         </section>
-      </div>
-      <div class="container">
-        <div class="reviews reviews_slider product_equipment_slider">
-          <div class="reviews_block">
-            <div class="reviews_title">
-              <img src="image/icon/man_rev.svg" alt="" />
-              <p>Alexandr Novikov</p>
-            </div>
-            <div class="reviews_desc">
-              <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here', making it look like readable English.
-              </p>
-            </div>
-          </div>
-          <div class="reviews_block">
-            <div class="reviews_title">
-              <img src="image/icon/man_rev.svg" alt="" />
-              <p>Alexandr Novikov</p>
-            </div>
-            <div class="reviews_desc">
-              <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here', making it look like readable English.It is
-                a long established fact that a reader will be distracted by the
-                readable content of a page when looking at its layout. The point
-                of using Lorem Ipsum is that it has a more-or-less normal
-                distribution of letters, as opposed to using 'Content here,
-                content here', making it look like readable English.
-              </p>
-            </div>
-          </div>
-          <div class="reviews_block">
-            <div class="reviews_title">
-              <img src="image/icon/man_rev.svg" alt="" />
-              <p>Alexandr Novikov</p>
-            </div>
-            <div class="reviews_desc">
-              <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has
-              </p>
-            </div>
-          </div>
-          <div class="reviews_block">
-            <div class="reviews_title">
-              <img src="image/icon/man_rev.svg" alt="" />
-              <p>Alexandr Novikov</p>
-            </div>
-            <div class="reviews_desc">
-              <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has
-              </p>
-            </div>
-          </div>
-          <div class="reviews_block">
-            <div class="reviews_title">
-              <img src="image/icon/man_rev.svg" alt="" />
-              <p>Alexandr Novikov</p>
-            </div>
-            <div class="reviews_desc">
-              <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has
-              </p>
-            </div>
-          </div>
+        <div class="container">
+            <section class="recommend">
+                <p class="recommend_title">Ce ne</p>
+                <span class="recommend_desc">recomandă?</span>
+                <div class="recommend_cnt">
+                    <ul class="recommend_cnt_list">
+                        <li class="recommend_cnt_item">
+                            <span>01</span>
+                            <p class="recommend_cnt_title">Monitorizare GPS</p>
+                            <p class="recommend_cnt_desc">
+                                Asiguram transport frigorific chiar si pentru marfurile care
+                                necesita conditii speciale climatice de transport, precum
+                                produsele lactate ...
+                            </p>
+                        </li>
+                        <li class="recommend_cnt_item">
+                            <span>02</span>
+                            <p class="recommend_cnt_title">Dispecerat 24/H</p>
+                            <p class="recommend_cnt_desc">
+                                Asiguram transport frigorific chiar si pentru marfurile care
+                                necesita conditii speciale climatice de transport, precum
+                                produsele lactate ...
+                            </p>
+                        </li>
+                        <li class="recommend_cnt_item">
+                            <span>03</span>
+                            <p class="recommend_cnt_title">Transporturi De Incredere</p>
+                            <p class="recommend_cnt_desc">
+                                Asiguram transport frigorific chiar si pentru marfurile care
+                                necesita conditii speciale climatice de transport, precum
+                                produsele lactate ...
+                            </p>
+                        </li>
+                        <li class="recommend_cnt_item">
+                            <span>04</span>
+                            <p class="recommend_cnt_title">Asigurare Transporturi</p>
+                            <p class="recommend_cnt_desc">
+                                Asiguram transport frigorific chiar si pentru marfurile care
+                                necesita conditii speciale climatice de transport, precum
+                                produsele lactate ...
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </div>
-      </div>
+        <div class="container">
+            <div class="reviews reviews_slider product_equipment_slider">
+                <div class="reviews_block">
+                    <div class="reviews_title">
+                        <img src="image/icon/man_rev.svg" alt="" />
+                        <p>Alexandr Novikov</p>
+                    </div>
+                    <div class="reviews_desc">
+                        <p>
+                            It is a long established fact that a reader will be distracted
+                            by the readable content of a page when looking at its layout.
+                            The point of using Lorem Ipsum is that it has a more-or-less
+                            normal distribution of letters, as opposed to using 'Content
+                            here, content here', making it look like readable English.
+                        </p>
+                    </div>
+                </div>
+                <div class="reviews_block">
+                    <div class="reviews_title">
+                        <img src="image/icon/man_rev.svg" alt="" />
+                        <p>Alexandr Novikov</p>
+                    </div>
+                    <div class="reviews_desc">
+                        <p>
+                            It is a long established fact that a reader will be distracted
+                            by the readable content of a page when looking at its layout.
+                            The point of using Lorem Ipsum is that it has a more-or-less
+                            normal distribution of letters, as opposed to using 'Content
+                            here, content here', making it look like readable English.It is
+                            a long established fact that a reader will be distracted by the
+                            readable content of a page when looking at its layout. The point
+                            of using Lorem Ipsum is that it has a more-or-less normal
+                            distribution of letters, as opposed to using 'Content here,
+                            content here', making it look like readable English.
+                        </p>
+                    </div>
+                </div>
+                <div class="reviews_block">
+                    <div class="reviews_title">
+                        <img src="image/icon/man_rev.svg" alt="" />
+                        <p>Alexandr Novikov</p>
+                    </div>
+                    <div class="reviews_desc">
+                        <p>
+                            It is a long established fact that a reader will be distracted
+                            by the readable content of a page when looking at its layout.
+                            The point of using Lorem Ipsum is that it has
+                        </p>
+                    </div>
+                </div>
+                <div class="reviews_block">
+                    <div class="reviews_title">
+                        <img src="image/icon/man_rev.svg" alt="" />
+                        <p>Alexandr Novikov</p>
+                    </div>
+                    <div class="reviews_desc">
+                        <p>
+                            It is a long established fact that a reader will be distracted
+                            by the readable content of a page when looking at its layout.
+                            The point of using Lorem Ipsum is that it has
+                        </p>
+                    </div>
+                </div>
+                <div class="reviews_block">
+                    <div class="reviews_title">
+                        <img src="image/icon/man_rev.svg" alt="" />
+                        <p>Alexandr Novikov</p>
+                    </div>
+                    <div class="reviews_desc">
+                        <p>
+                            It is a long established fact that a reader will be distracted
+                            by the readable content of a page when looking at its layout.
+                            The point of using Lorem Ipsum is that it has
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <!-- Футер -->
     <footer class="footer-section">
-      <div class="container">
-        <div class="footer-blocks">
-          <div class="footer-contacts">
-            <a href="./index.html" class="logo footer-logo">
-              <span class="accent">“Grif Translogistics”</span>SRL</a
-            >
+        <div class="container">
+            <div class="footer-blocks">
+                <div class="footer-contacts">
+                    <a href="./index.html" class="logo footer-logo">
+                        <span class="accent">“Grif Translogistics”</span>SRL</a>
 
-            <address>
-              <ul class="list">
-                <li>
-                  <a
-                    class="adress-info"
-                    href="https://goo.gl/maps/8xx7vyXXwGKsBaTT6"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    >Moldova, mun. Chisinau, str. Uzinelor 169</a
-                  >
-                </li>
-                <li class="contacts-align">
-                  <a href="mailto:office@frigotranslogistic.ro" class="contacts"
-                    >office@frigotranslogistic.ro</a
-                  >
-                </li>
-                <ul class="join-icons list">
-                  <li class="join-icon-container insta_blue">
-                    <a
-                      href="#"
-                      rel="noopener noreferrer nofollow"
-                      target="_blank"
-                      class="join-link"
-                      aria-label="Ссылка на Instagram"
-                    >
-                      <svg
-                        width="21"
-                        height="21"
-                        viewBox="0 0 21 21"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M14.3351 0.0637634C12.4676 -0.0233559 7.84178 -0.0191268 5.97252 0.0637634C4.32994 0.140733 2.88105 0.537422 1.71297 1.7055C-0.0339027 3.45237 -0.0177886 5.74244 0.00491529 8.96904C0.00758317 9.34819 0.010342 9.74027 0.010342 10.1459C0.010342 10.5256 0.00830861 10.8925 0.00634221 11.2473C-0.0121408 14.5824 -0.0247004 16.8487 1.71297 18.5863C3.46305 20.3357 5.77837 20.3185 8.96852 20.2948H8.96857C9.35078 20.2919 9.74554 20.289 10.1534 20.289H10.2084C14.0772 20.289 15.4209 20.289 16.7973 19.7561C18.6776 19.0262 20.0968 17.3455 20.2356 14.3268C20.3235 12.4584 20.3184 7.83345 20.2356 5.96419C20.0681 2.40076 18.1557 0.239694 14.3351 0.0637634ZM17.2913 17.2948C16.1127 18.4733 14.5138 18.4697 11.0601 18.4617C10.7637 18.461 10.4536 18.4603 10.1289 18.4603L9.54794 18.4606C5.74104 18.4633 4.14563 18.4645 2.96648 17.2821C1.73975 16.0612 1.76004 14.2036 1.78948 11.5077V11.5077C1.79424 11.0715 1.79925 10.6133 1.79925 10.1324C1.79925 9.72454 1.7956 9.32666 1.79204 8.93995L1.79204 8.93992C1.75491 4.89559 1.729 2.07276 6.00973 1.85352L6.05827 1.8518C7.09748 1.81507 7.44565 1.80277 10.117 1.80277L10.1551 1.82814C10.5413 1.82814 10.9204 1.82468 11.2909 1.82129C15.2441 1.78515 18.217 1.75798 18.4111 6.04539C18.4593 7.11535 18.4703 7.43676 18.4703 10.1451C18.4703 10.3886 18.4705 10.6237 18.4707 10.8508V10.8509C18.4742 14.5224 18.4757 16.1047 17.2913 17.2948ZM10.1535 4.9376C7.27518 4.9376 4.94495 7.27037 4.94495 10.1461C4.94495 13.0245 7.27771 15.3547 10.1535 15.3547C13.0318 15.3547 15.362 13.0219 15.362 10.1461C15.362 7.26783 13.0293 4.9376 10.1535 4.9376ZM10.1535 13.5269C8.28508 13.5269 6.77276 12.0137 6.77276 10.1461C6.77276 8.27858 8.28593 6.76541 10.1535 6.76541C12.0211 6.76541 13.5342 8.27858 13.5342 10.1461C13.5351 12.0137 12.0219 13.5269 10.1535 13.5269ZM16.7855 4.73183C16.7855 5.40403 16.2405 5.94896 15.5683 5.94896C14.8961 5.94896 14.3512 5.40403 14.3512 4.73183C14.3512 4.05963 14.8961 3.5147 15.5683 3.5147C16.2405 3.5147 16.7855 4.05963 16.7855 4.73183Z"
-                          fill="white"
-                          fill-opacity="0.6"
-                        />
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="join-icon-container facebook_blue">
-                    <a
-                      href="#"
-                      rel="noopener noreferrer nofollow"
-                      target="_blank"
-                      class="join-link"
-                      aria-label="Ссылка на Twitter"
-                    >
-                      <svg
-                        width="10"
-                        height="19"
-                        viewBox="0 0 10 19"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M8.17432 3.15479H10V0.133792C9.68503 0.092625 8.60178 0 7.34022 0C4.70794 0 2.90476 1.57304 2.90476 4.46421V7.125H0V10.5022H2.90476V19H6.46613V10.503H9.2534L9.69586 7.12579H6.4653V4.79908C6.46613 3.82296 6.74277 3.15479 8.17432 3.15479Z"
-                          fill="white"
-                          fill-opacity="0.6"
-                        />
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-                <li class="contacts-align">
-                  <a href="tel:+380961111111" class="contacts_footer"
-                    >+40753 005 599</a
-                  >
-                </li>
-              </ul>
-            </address>
-          </div>
-          <div class="footer-join">
-            <nav class="menu-footer__nav">
-              <ul class="menu-footer__list">
-                <li class="menu-footer__item">
-                  <a href="/Griftrans/about.html">Despre companie</a>
-                </li>
-                <li class="menu-footer__item">
-                  <a href="/Griftrans/directions.html">Directii</a>
-                </li>
-                <li class="menu-footer__item">
-                  <a href="/Griftrans/services.html">Servicii</a>
-                </li>
-                <li class="menu-footer__item">
-                  <a href="/Griftrans/kuki.html">Politica de confidalitate</a>
-                </li>
-                <li class="menu-footer__item">
-                  <a href="/Griftrans/contact.html">Contacte</a>
-                </li>
-              </ul>
-            </nav>
-            <div class="footer_contact_btn">
-              <a href="#"
-                >Contacteaza ne<svg
-                  width="20"
-                  height="11"
-                  viewBox="0 0 20 11"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M19.8678 4.70428L15.3225 0.158889C15.1592 -0.0317713 14.8722 -0.0539973 14.6816 0.10932C14.4909 0.272598 14.4687 0.559546 14.632 0.750207C14.6472 0.76798 14.6638 0.784581 14.6816 0.799776L18.4497 4.57244H0.454523C0.203512 4.57244 0 4.77596 0 5.02701C0 5.27806 0.203512 5.48153 0.454523 5.48153H18.4497L14.6816 9.24963C14.4909 9.4129 14.4687 9.69985 14.632 9.89051C14.7953 10.0812 15.0822 10.1034 15.2729 9.94008C15.2907 9.92485 15.3073 9.90829 15.3225 9.89051L19.8678 5.34513C20.0441 5.1679 20.0441 4.88158 19.8678 4.70428Z"
-                    fill="white"
-                  />
-                </svg>
-              </a>
-            </div>
-            <div class="footer__bottom-author author">
-              <div class="author-text">
-                <div class="author-text__by">develop by</div>
-                <div class="author-text__studio">Studio WebMaster, 2022</div>
-                <div>
-                  <picture
-                    ><source
-                      data-srcset="image/icon/logo_webmaster.svg"
-                      srcset="image/icon/logo_webmaster.svg"
-                      type="image/webp" />
-                    <img src="image/icon/logo_webmaster.svg" alt=""
-                  /></picture>
+                    <address>
+                        <ul class="list">
+                            <li>
+                                <a class="adress-info" href="https://goo.gl/maps/8xx7vyXXwGKsBaTT6" target="_blank"
+                                    rel="noreferrer noopener">Moldova, mun. Chisinau, str. Uzinelor 169</a>
+                            </li>
+                            <li class="contacts-align">
+                                <a href="mailto:office@frigotranslogistic.ro"
+                                    class="contacts">office@frigotranslogistic.ro</a>
+                            </li>
+                            <ul class="join-icons list">
+                                <li class="join-icon-container insta_blue">
+                                    <a href="#" rel="noopener noreferrer nofollow" target="_blank" class="join-link"
+                                        aria-label="Ссылка на Instagram">
+                                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M14.3351 0.0637634C12.4676 -0.0233559 7.84178 -0.0191268 5.97252 0.0637634C4.32994 0.140733 2.88105 0.537422 1.71297 1.7055C-0.0339027 3.45237 -0.0177886 5.74244 0.00491529 8.96904C0.00758317 9.34819 0.010342 9.74027 0.010342 10.1459C0.010342 10.5256 0.00830861 10.8925 0.00634221 11.2473C-0.0121408 14.5824 -0.0247004 16.8487 1.71297 18.5863C3.46305 20.3357 5.77837 20.3185 8.96852 20.2948H8.96857C9.35078 20.2919 9.74554 20.289 10.1534 20.289H10.2084C14.0772 20.289 15.4209 20.289 16.7973 19.7561C18.6776 19.0262 20.0968 17.3455 20.2356 14.3268C20.3235 12.4584 20.3184 7.83345 20.2356 5.96419C20.0681 2.40076 18.1557 0.239694 14.3351 0.0637634ZM17.2913 17.2948C16.1127 18.4733 14.5138 18.4697 11.0601 18.4617C10.7637 18.461 10.4536 18.4603 10.1289 18.4603L9.54794 18.4606C5.74104 18.4633 4.14563 18.4645 2.96648 17.2821C1.73975 16.0612 1.76004 14.2036 1.78948 11.5077V11.5077C1.79424 11.0715 1.79925 10.6133 1.79925 10.1324C1.79925 9.72454 1.7956 9.32666 1.79204 8.93995L1.79204 8.93992C1.75491 4.89559 1.729 2.07276 6.00973 1.85352L6.05827 1.8518C7.09748 1.81507 7.44565 1.80277 10.117 1.80277L10.1551 1.82814C10.5413 1.82814 10.9204 1.82468 11.2909 1.82129C15.2441 1.78515 18.217 1.75798 18.4111 6.04539C18.4593 7.11535 18.4703 7.43676 18.4703 10.1451C18.4703 10.3886 18.4705 10.6237 18.4707 10.8508V10.8509C18.4742 14.5224 18.4757 16.1047 17.2913 17.2948ZM10.1535 4.9376C7.27518 4.9376 4.94495 7.27037 4.94495 10.1461C4.94495 13.0245 7.27771 15.3547 10.1535 15.3547C13.0318 15.3547 15.362 13.0219 15.362 10.1461C15.362 7.26783 13.0293 4.9376 10.1535 4.9376ZM10.1535 13.5269C8.28508 13.5269 6.77276 12.0137 6.77276 10.1461C6.77276 8.27858 8.28593 6.76541 10.1535 6.76541C12.0211 6.76541 13.5342 8.27858 13.5342 10.1461C13.5351 12.0137 12.0219 13.5269 10.1535 13.5269ZM16.7855 4.73183C16.7855 5.40403 16.2405 5.94896 15.5683 5.94896C14.8961 5.94896 14.3512 5.40403 14.3512 4.73183C14.3512 4.05963 14.8961 3.5147 15.5683 3.5147C16.2405 3.5147 16.7855 4.05963 16.7855 4.73183Z"
+                                                fill="white" fill-opacity="0.6" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="join-icon-container facebook_blue">
+                                    <a href="#" rel="noopener noreferrer nofollow" target="_blank" class="join-link"
+                                        aria-label="Ссылка на Twitter">
+                                        <svg width="10" height="19" viewBox="0 0 10 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M8.17432 3.15479H10V0.133792C9.68503 0.092625 8.60178 0 7.34022 0C4.70794 0 2.90476 1.57304 2.90476 4.46421V7.125H0V10.5022H2.90476V19H6.46613V10.503H9.2534L9.69586 7.12579H6.4653V4.79908C6.46613 3.82296 6.74277 3.15479 8.17432 3.15479Z"
+                                                fill="white" fill-opacity="0.6" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                            <li class="contacts-align">
+                                <a href="tel:+380961111111" class="contacts_footer">+40753 005 599</a>
+                            </li>
+                        </ul>
+                    </address>
                 </div>
-              </div>
+                <div class="footer-join">
+                    <nav class="menu-footer__nav">
+                        <ul class="menu-footer__list">
+                            <li class="menu-footer__item">
+                                <a href="/Griftrans/about.html">Despre companie</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="/Griftrans/directions.html">Directii</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="/Griftrans/services.html">Servicii</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="/Griftrans/kuki.html">Politica de confidalitate</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="/Griftrans/contact.html">Contacte</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="footer_contact_btn">
+                        <a href="#">Contacteaza ne<svg width="20" height="11" viewBox="0 0 20 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.8678 4.70428L15.3225 0.158889C15.1592 -0.0317713 14.8722 -0.0539973 14.6816 0.10932C14.4909 0.272598 14.4687 0.559546 14.632 0.750207C14.6472 0.76798 14.6638 0.784581 14.6816 0.799776L18.4497 4.57244H0.454523C0.203512 4.57244 0 4.77596 0 5.02701C0 5.27806 0.203512 5.48153 0.454523 5.48153H18.4497L14.6816 9.24963C14.4909 9.4129 14.4687 9.69985 14.632 9.89051C14.7953 10.0812 15.0822 10.1034 15.2729 9.94008C15.2907 9.92485 15.3073 9.90829 15.3225 9.89051L19.8678 5.34513C20.0441 5.1679 20.0441 4.88158 19.8678 4.70428Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="footer__bottom-author author">
+                        <div class="author-text">
+                            <div class="author-text__by">develop by</div>
+                            <div class="author-text__studio">Studio WebMaster, 2022</div>
+                            <div>
+                                <picture>
+                                    <source data-srcset="image/icon/logo_webmaster.svg"
+                                        srcset="image/icon/logo_webmaster.svg" type="image/webp" />
+                                    <img src="image/icon/logo_webmaster.svg" alt="" />
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
     <script src="lib/nice-select/jquery.js"></script>
     <script src="lib/slick/slick.min.js"></script>
     <script src="js/app.js"></script>
@@ -551,5 +460,6 @@
 
     <!-- "BACK TO TOP" BUTTON AT BOTTOM -->
     <img src="image/icon/scroll.svg" id="backtop" onclick="totop()" />
-  </body>
+</body>
+
 </html>
