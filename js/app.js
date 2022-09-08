@@ -40,9 +40,15 @@ $('.product_small_slider').slick({
     initialSlide: 0,
     responsive: [
         {
-            breakpoint: 768,
+            breakpoint: 860,
             settings: {
                 slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 440,
+            settings: {
+                slidesToShow: 1,
             }
         }
     ]
@@ -59,7 +65,13 @@ $('.product_equipment_slider').slick({
         {
             breakpoint: 768,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
+            }
+        },
+        {
+            breakpoint: 440,
+            settings: {
+                slidesToShow: 1,
             }
         }
     ]

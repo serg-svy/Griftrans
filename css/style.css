@@ -698,6 +698,7 @@ li.recommend_cnt_about_item span {
     margin-top: -62px;
     position: absolute;
     text-align: center;
+    margin-left: -10px;
 }
 ul.recommend_cnt_about_list {
     display: flex;
@@ -1255,7 +1256,7 @@ button.contact_form_btn svg {
     box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
     border-radius: 10px;
     width: 413px;
-    padding: 30px 40px 40px 30px;
+    padding: 35px 40px 40px 35px;
     text-align: center;
     left: 81rem;
     top: 40rem;
@@ -1502,4 +1503,32 @@ span.slider-nav__arrow.js-gallery-prev.slick-arrow{
 
 img.images_slider {
     max-width: 100%;
+}
+button.contact_form_btn:hover{
+   background: #02719e;
+    cursor: pointer
+}
+.services_page_btn:hover{
+    background: #02719e;
+}
+button.directions_form:hover{
+    background: #02719e;
+    cursor: pointer
+}
+button.cookie-hero:hover{
+    background: #02719e;
+    cursor: pointer
+}
+button.cookie-hero_btn{
+    cursor: pointer
+}
+
+.hamburger-lines {
+    display: none;
+}
+.menu-items {
+    display: none;
+}
+input.checkbox {
+    display: none;
 }
